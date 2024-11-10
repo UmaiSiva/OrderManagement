@@ -1,8 +1,9 @@
-package com.example.ordermanagement.repository;
+package com.example.orderManagement.repository;
 
-import com.example.ordermanagement.entity.Client;
+import com.example.orderManagement.entity.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.Optional;
 
 public interface ClientRepository extends JpaRepository<Client, Long> {
-    Client findByEmail(String email);
+    Optional<Client> findByEmail(String email);
 }
