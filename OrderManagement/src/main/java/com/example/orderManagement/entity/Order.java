@@ -1,7 +1,8 @@
 package com.example.ordermanagement.entity;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.time.LocalDateTime;
+
 
 @Entity
 public class Order {

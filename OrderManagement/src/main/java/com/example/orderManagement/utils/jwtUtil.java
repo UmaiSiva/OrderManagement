@@ -10,7 +10,7 @@ import java.util.Date;
 import java.util.function.Function;
 
 @Component
-public class JwtUtil {
+public class jwtUtil {
 
     @Value("${jwt.secret.key}")
     private String secretKey; // Injected from application.properties

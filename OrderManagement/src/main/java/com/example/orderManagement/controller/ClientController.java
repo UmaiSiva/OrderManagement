@@ -2,7 +2,7 @@ package com.example.ordermanagement.controller;
 
 import com.example.ordermanagement.entity.Client;
 import com.example.ordermanagement.repository.ClientRepository;
-import com.example.ordermanagement.utils.JwtUtil;
+import com.example.ordermanagement.utils.jwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -24,7 +24,7 @@ public class ClientController {
     private PasswordEncoder passwordEncoder;
 
     @Autowired
-    private JwtUtil jwtUtil;
+    private jwtUtil jwtUtil;
 
     /**
      * Endpoint for registering a new user.
