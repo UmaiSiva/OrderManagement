@@ -61,13 +61,6 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<!-- Jakarta Persistence for Entity Annotations (if needed) -->
-		<dependency>
-			<groupId>jakarta.persistence</groupId>
-			<artifactId>jakarta.persistence-api</artifactId>
-			<version>3.0.0</version>
-		</dependency>
-
 		<!-- Servlet API for JWT Filter -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
